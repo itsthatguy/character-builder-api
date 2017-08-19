@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import objection, { Model } from 'objection';
-const Knex from 'knex';
+import Knex from 'knex';
 
 import Builds from './controllers/Builds';
 import Users from './controllers/Users';
